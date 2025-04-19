@@ -96,7 +96,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             ElevatedButton(
-              onPressed: () => connectWebSocket("ws://esp32-5a62ec.local:81"),
+              onPressed: () => connectWebSocket("ws://esp32-5a62ec.local:80"),
               child: const Text('Connect WebSocket'),
             ),
             Text(
